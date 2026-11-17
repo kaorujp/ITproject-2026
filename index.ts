@@ -21,7 +21,7 @@ app.set('views', path.join(process.cwd(), 'views')); // EJSファイルを保存
 
 // 「/」にアクセスされたときの処理
 app.get('/', (req: Request, res: Response): void => {
-  res.send('Hello World!');
+  res.send('Hello World!!!!');
 });
 
 // ★ 追加：Neonデータベースへの接続確認用API
